@@ -42,5 +42,91 @@ public class CtlSbDocumentosTimbradoEnlaces {
     @Column(name = "fecha")
     private Date fecha;
 
+    public Long getFolioDocumento() {
+        return folioDocumento;
+    }
 
+    public void setFolioDocumento(Long folioDocumento) {
+        this.folioDocumento = folioDocumento;
+    }
+
+    public String getTipoDocumento() {
+        return tipoDocumento;
+    }
+
+    public void setTipoDocumento(String tipoDocumento) {
+        this.tipoDocumento = tipoDocumento;
+    }
+
+    public String getEmisorRfc() {
+        return emisorRfc;
+    }
+
+    public void setEmisorRfc(String emisorRfc) {
+        this.emisorRfc = emisorRfc;
+    }
+
+    public String getEmisorNombre() {
+        return emisorNombre;
+    }
+
+    public void setEmisorNombre(String emisorNombre) {
+        this.emisorNombre = emisorNombre;
+    }
+
+    public String getReceptorRfc() {
+        return receptorRfc;
+    }
+
+    public void setReceptorRfc(String receptorRfc) {
+        this.receptorRfc = receptorRfc;
+    }
+
+    public String getReceptorNombre() {
+        return receptorNombre;
+    }
+
+    public void setReceptorNombre(String receptorNombre) {
+        this.receptorNombre = receptorNombre;
+    }
+
+    public Integer getOrigen() {
+        return origen;
+    }
+
+    public void setOrigen(Integer origen) {
+        this.origen = origen;
+    }
+
+    public String getTipoOrigen() {
+        return tipoOrigen;
+    }
+
+    public void setTipoOrigen(String tipoOrigen) {
+        this.tipoOrigen = tipoOrigen;
+    }
+
+    public Integer getDestino() {
+        return destino;
+    }
+
+    public void setDestino(Integer destino) {
+        this.destino = destino;
+    }
+
+    public String getTipoDestino() {
+        return tipoDestino;
+    }
+
+    public void setTipoDestino(String tipoDestino) {
+        this.tipoDestino = tipoDestino;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
 }

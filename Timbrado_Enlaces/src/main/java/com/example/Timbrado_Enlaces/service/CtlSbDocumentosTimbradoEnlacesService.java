@@ -1,4 +1,8 @@
 package com.example.Timbrado_Enlaces.service;
 
-public interface CtlSbDocumentosTimbradoEnlacesService {
+import com.example.Timbrado_Enlaces.model.CtlSbDocumentosTimbradoEnlaces;
+
+public interface CtlSbDocumentosTimbradoEnlacesService extends ICRUD<CtlSbDocumentosTimbradoEnlaces>{
+
+
 }

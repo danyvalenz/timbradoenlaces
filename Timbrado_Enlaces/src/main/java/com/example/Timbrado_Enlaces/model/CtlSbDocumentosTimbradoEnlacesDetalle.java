@@ -51,4 +51,6 @@ public class CtlSbDocumentosTimbradoEnlacesDetalle implements Serializable {
     @ManyToOne(cascade = CascadeType.REMOVE)
     @JoinColumn(name = "folio_documento",foreignKey = @ForeignKey(name = "FK_detalle_bitacora"))
     private CtlSbDocumentosTimbradoEnlaces ctlSbDocumentosTimbradoEnlaces;
+
+
 }
